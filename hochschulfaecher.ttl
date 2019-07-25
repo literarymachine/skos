@@ -5,7 +5,7 @@
 @prefix vann: <> .
 
 <scheme#> a skos:ConceptScheme ;
-dct:title "Fächersystematik Hochschulbildung in Deutschland TEST AGAIN"@de ;
+dct:title "Fächersystematik Hochschulbildung in Deutschland TEST AGAIN AND AGAIN"@de ;
   dct:description """Diese Systematik basiert auf der Klassifikation von Studiengängen in Deutschland des [Hochschulkompass](https://www.hochschulkompass.de/studienbereiche-kennenlernen.html). Sie umfasst drei Ebenen, die im Hochschulkompass "Fächergruppen", "studienbereiche" und "Studienfelder" genannt werden."""@de;
   dct:issued "2019-05-27";
   vann:preferredNamespaceUri "http://w3id.org/class/hochschulfaecher/";
