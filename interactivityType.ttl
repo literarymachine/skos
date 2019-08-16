@@ -10,13 +10,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 interact: a skos:ConceptScheme ;
-    dc:title "LRMI Interact Type Vocabulary"@en-US ;
+    dct:title "LRMI Interact Type Vocabulary"@en-US ;
     dc:creator "LRMI Task Group (DCMI)"@en-US ;
     dct:description "A concept scheme that defines the predominate interact mode of the learning resource being described."@en-US ;
     dct:source "Based on the IEEE Learning Object Metadata standard (IEEE/LOM - IEEE 1484.12.1-202)."@en-US ;
     dct:created "2017-03-01"^^xsd:date ;
     dct:modified "2017-12-20"^^xsd:date ;
-    dct:license <http://creativecommons.org/licenses/by/4.0/> .
+    dct:license <http://creativecommons.org/licenses/by/4.0/> ;
+    skos:hasTopConcept interact:active, interact:expositive, interact:mixed .
 
 interact:active a skos:Concept ;
     skos:prefLabel "active"@en-US ;
