@@ -1,0 +1,44 @@
+@base <https://oerworldmap.org/assets/json/sectors/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<>
+    a skos:ConceptScheme ;
+    dct:title "Educational Sectors"@en, "Bildungssektoren"@de ;
+    skos:hasTopConcept <earlyChildhood>, <further>, <general>, <higherEd>, <school>, <vocational> .
+
+<earlyChildhood>
+    skos:prefLabel "Early Childhood Education"@en, "Frühkindliche Erziehung"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<further>
+    skos:prefLabel "Further Education"@en, "Weiterbildung"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<general>
+    skos:prefLabel "Cross-sector"@en, "Sektorenübergreifend"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<higherEd>
+    skos:prefLabel "Higher Education"@en, "Hochschule"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<school>
+    skos:prefLabel "School"@en, "Schule"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<vocational>
+    skos:prefLabel "Berufliche Bildung"@de, "Vocational Education"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
