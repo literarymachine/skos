@@ -1,0 +1,120 @@
+@base <https://oerworldmap.org/assets/json/licenses/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<>
+    a skos:ConceptScheme ;
+    dct:title "Licenses"@en, "Lizenzen"@de ;
+    skos:hasTopConcept <by-nc>, <by-nc-nd>, <by-nc-sa>, <by-nd>, <cc-by>, <cc-by-sa>, <cc0>, <copyright>, <other-by>, <other-nc>, <other-nd>, <other-pd>, <other-sa>, <unspecified> .
+
+<by-nc>
+    skos:altLabel "CC-By-NC"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png> ;
+    skos:prefLabel "Creative Commons Attribution Non-Commercial"@en, "Creative Commons Namensnennung, nicht kommerziell"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<by-nc-nd>
+    skos:altLabel "CC By-NC-ND"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png> ;
+    skos:prefLabel "Creative Commons Attribution Non-Commercial No-Derivatives"@en, "Creative Commons Namensnennung, nicht kommerziell, keine Bearbeitung"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<by-nc-sa>
+    skos:altLabel "CC By-NC-SA"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png> ;
+    skos:prefLabel "Creative Commons Attribution Non-Commercial Share-Alike"@en, "Creative Commons Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<by-nd>
+    skos:altLabel "CC-By-ND"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nd.png> ;
+    skos:prefLabel "Creative Commons Attribution No-Derivatives"@en, "Creative Commons Namensnennung, keine Bearbeitung"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<cc-by>
+    skos:altLabel "CC-By"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png> ;
+    skos:prefLabel "Creative Commons Attribution"@en, "Creative Commons Namensnennung"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<cc-by-sa>
+    skos:altLabel "CC-By-SA"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png> ;
+    skos:prefLabel "Creative Commons Attribution Share-Alike"@en, "Creative Commons Namensnennung, Weitergabe unter gleichen Bedingungen"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<cc0>
+    skos:altLabel "CC0"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png> ;
+    skos:prefLabel "Creative Commons Public Domain Dedication"@en, "Public domain (kein Copyright)"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<copyright>
+    skos:altLabel "©"@en ;
+    <http://schema.org/image> <https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/197px-Copyright.svg.png> ;
+    skos:prefLabel "Copyright"@de, "Copyright"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<other-by>
+    skos:altLabel "Non-CC Attribution License"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/icons/by.png> ;
+    skos:prefLabel "Andere (Namensnennung)"@de, "Other (Attribution)"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<other-nc>
+    skos:altLabel "Non-CC Non-Commercial License"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/icons/nc.png> ;
+    skos:prefLabel "Andere (nicht kommerziell)"@de, "Other (Non-Commercial)"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<other-nd>
+    skos:altLabel "Non-CC No-Derivatives License"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/icons/nd.png> ;
+    skos:prefLabel "Andere (keine Bearbeitung)"@de, "Other (No-Derivatives)"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<other-pd>
+    skos:altLabel "Non-CC Public Domain Declaration"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/icons/pd.png> ;
+    skos:prefLabel "Andere (Public Domain)"@de, "Other (Public Domain)"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<other-sa>
+    skos:altLabel "Non-CC Share-Alike License"@en ;
+    <http://schema.org/image> <http://mirrors.creativecommons.org/presskit/icons/sa.png> ;
+    skos:prefLabel "Andere (Weitergabe unter gleichen Bedingungen)"@de, "Other (Share-Alike)"@en ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<unspecified>
+    skos:altLabel "License not specified"@en ;
+    <http://schema.org/image> <https://cdn0.iconfinder.com/data/icons/glyphpack/34/question-circle-64.png> ;
+    skos:prefLabel "Unspecified"@en, "nicht spezifiziert"@de ;
+    a skos:Concept ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
