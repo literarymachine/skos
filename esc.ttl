@@ -10,7 +10,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :scheme a skos:ConceptScheme ;
-    dct:description "The Educational Subjects Classification (ESC) is an extension of the International Standard Classification of Education (ISCED-2013). For example, it can be used for classifying by subject services that enable access to or discovery of educational resources. It is developed and maintained in the context of the OER Worldmap (OER = Open Educational Resources)."@en ;
+    dct:description "BRANCH v1.0 The Educational Subjects Classification (ESC) is an extension of the International Standard Classification of Education (ISCED-2013). For example, it can be used for classifying by subject services that enable access to or discovery of educational resources. It is developed and maintained in the context of the OER Worldmap (OER = Open Educational Resources)."@en ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     dct:source <https://raw.githubusercontent.com/hbz/vocabs-edu/master/isced-2013.ttl> ;
     dct:title "Educational Subjects Classification"@en ;
